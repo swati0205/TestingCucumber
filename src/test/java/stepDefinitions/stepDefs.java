@@ -12,6 +12,8 @@ import Base.base;
 import org.openqa.selenium.support.PageFactory;
 import pages.HomePage;
 
+import java.util.logging.Logger;
+
 public class stepDefs {
 
     base b = new base();
@@ -29,6 +31,7 @@ public class stepDefs {
     @When("I search for a product named {string} and price {int}")
     public void i_search_for_a_product_named_and_price(String ProdName, Integer Price) {
         System.out.println("Step: 2: " + ProdName + Price);
+
 
 
     }
